@@ -1,0 +1,78 @@
+# ============================================
+# Terraform
+# ============================================
+
+# Local Terraform state
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Terraform plan files
+*.tfplan
+*.tfvars
+*.tfvars.json
+
+# Local-only override files
+*_override.tf
+*_override.tf.json
+
+# Directory created by `terraform init`
+.terraform/
+.terraform.lock.hcl
+
+# ============================================
+# AWS Credentials (NEVER COMMIT THESE)
+# ============================================
+
+# AWS CLI credentials
+.aws/
+credentials
+config
+
+# Avoid committing private keys
+*.pem
+*.key
+*.ppk
+
+# ============================================
+# OS / IDE / Editor files
+# ============================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Backup files
+*~
+*.backup
+*.bak
+*.tmp
+
+# Logs
+*.log
+
+# ============================================
+# Shell scripts you may not want to track
+# ============================================
+
+# User data temp files
+user-data.sh
+
+# ============================================
+# Compressed and build files
+# ============================================
+
+*.zip
+*.tar
+*.gz
+*.tgz
+
